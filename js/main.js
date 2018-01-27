@@ -7,10 +7,10 @@ $(function() {
     var dy = e.clientY - cy;
 
     $('#box1').css('left', cx + dx * 1.1);
-    $('#box2').css('left', cx + dx * 1.3);
-    $('#box3').css('left', cx + dx * 1.7);
-    $('#box1').css('top', cy + dy * 1.0);
-    $('#box2').css('top', cy + dy * 1.2);
-    $('#box3').css('top', cy + dy * 1.5);
+    $('#box2').css('left', cx + dx * 1.2);
+    $('#box3').css('left', cx + dx * 1.4);
+    $('#box1').css('top', cy + dy * 1.3);
+    $('#box2').css('top', cy + dy * 1.6);
+    $('#box3').css('top', cy + dy * 1.9);
   });
 });
