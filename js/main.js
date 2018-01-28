@@ -1,5 +1,5 @@
 $(function() {
   $('#container').mousemove(function(e) {
-    console.log(e.clientX, e.ClientY);
+    console.log(e.clientX, e.clientY);
   });
 });
